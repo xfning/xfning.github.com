@@ -1,4 +1,4 @@
 xfning.github.com
 =================
 
-hello~~
+HELLO~~WELCOME TO MY HOME!
