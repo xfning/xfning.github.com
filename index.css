@@ -4,40 +4,48 @@ body,header,nav,ul,li,p,div,h1,h2,h3,h4,h5,h6{
     padding:0;
 }
 body{
-font-family: "KaiTi";
+font-family:"Open Sans, Helvetica Neue, Helvetica, sans-serif";
+background:#f7f7f9;
 }
 .header {
+    margin-top:100px;
     width:100%;
-    height:40px;
-    background-color:#333;
-    border-bottom:1px solid #ddd;
+    height:120px;
+   
+   
     
 }
 
 .nav {
     width:990px;
-    height:40px;
+    height:120px;
     margin:0 auto;
+    text-align: center
       
     
 }
 .nav ul{
-    width:990px;
+    width:208px;
     height:100%;
+    margin:0 auto;
 }
 .nav ul li{
     float:left;
     list-style:none;
-    line-height:40px;
-    height:40px;
-    border-left:1px solid #565656;
+    line-height:120px;
+    height:120px;
+   
 }
 .nav ul li a{
     padding:0 10px;
     text-decoration:none;
-    color:#fff;
-    font-family: "KaiTi";
+    color:#9099a3;
+
     font-size:18px;
+}
+.nav ul li a:hover{
+    color:#333;
+    text-decoration: underline;
 }
 .content {
     width:100%;
@@ -51,19 +59,19 @@ font-family: "KaiTi";
    
 }
 
-.lo {
-    border-right:1px solid #565656;
-}
+
 
 
 
 .title-name {
     font-size:36px;
-    color:#333;
+    color:#313437;
     height:90px;
     line-height:90px;
     width:100%;
     border-bottom:3px solid #333;
+    text-align: center;
+    
 }
 
 .content-left {
@@ -104,5 +112,3 @@ font-family: "KaiTi";
     bottom: 0;
     left:0;
 }
-
-
